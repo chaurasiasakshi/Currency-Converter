@@ -6,32 +6,50 @@
     <title>Currency - Converter</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
+<style>
+  .container{
+    border: 2px solid ;
+    margin-top: 2em;
+  }
+  h1{
+    text-shadow: 2px 2px  #6c757d;
+  }
+</style>
 <body>
-    <ul class="nav justify-content-center">
-        
+    <nav class="navbar navbar-dark bg-dark text-warning  navbar-expand-lg">
+
+      <a href="#" class="text-warning navbar-brand ">Simple-Converter</a>
+     
+
+   
+      <ul class="nav mx-auto">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link text-light" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link text-light" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link text-light" href="#">Contact</a>
         </li>
-       
+     
       </ul>
-    <div class="container">
+    </nav>
+     
+    
+     
+    <div class="container w-50">
 <h1 class="text-center">Converter Currency App</h1> 
-<form action="">
-  <label for="quantity">Choose a currency </label><br>
+<form action="" class="text-center">
+  <label for="quantity">Choose a quantity : </label><br>
   <input type="number"><br>
-  <label for="quantity">Choose a currency </label><br>
+  <label for="quantity">Choose a currency : </label><br>
   <select name="currency" id="">
     <option value="INR">Indian Rupee</option>
   <option value="USD">US DOllar</option>  
   <option value="EUR">Euro</option>  
   </select><br>
-  <button type="submit">Submit</button>
+  <button type="submit" class="btn btn-secondary btn-lg btn-block mt-5">Submit</button>
 </form>
     </div>
     <footer></footer>
